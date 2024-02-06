@@ -1,9 +1,12 @@
+
 def ounces(gramm):
     result = gramm/28.3495231
     
     return result
 
 print(ounces(2))
+
+
 
 def temperature(F):
     C=(F-32)*(5/9)
@@ -12,12 +15,15 @@ def temperature(F):
 #  F 68  = > C 20 I calculate this in Google
 print(temperature(68))
 
+
+
 def solve(heads, legs):
     for i in range(1,heads):
         if i*2 + (heads-i)*4==legs:
             return f"chicken {i}, rabbits {heads-i} "
 
 print(solve(35, 94))
+
 
 
 
@@ -44,6 +50,8 @@ def filter_prime(numbers):
 filter_prime(numbers)
 
 
+
+
 words = list(map(str, input().split()))
 
 def reversed_word(word):
@@ -58,6 +66,8 @@ def reversed_word(word):
 reversed_word(words)
 print(" ")
 
+
+
 def has_33(nums):
     numbers=nums
     bol=False
@@ -70,6 +80,8 @@ def has_33(nums):
         print("False")
 
 has_33([1,2,3])
+
+
 
 
 def spy_game(nums):
@@ -96,6 +108,8 @@ def area_circle(radius):
 
 area_circle(4)
 
+
+
 def unique(lst):
     unique_list = []
     for item in lst:
@@ -106,9 +120,9 @@ def unique(lst):
 unique([1, 2, 3, 4, 2, 3, 4, 5, 6, 5, 3])
 
 
+
+
 array=list(map(str,input().split()))
-
-
 
 def palindrome(list):
     array=list
@@ -125,6 +139,7 @@ palindrome(array)
 
 
 
+
 his=map(int,input().split())
 def histogram(lis):
     list=lis
@@ -132,7 +147,6 @@ def histogram(lis):
         print("*"*i)
     
 histogram(his)
-
 
 
 

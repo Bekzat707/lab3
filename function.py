@@ -80,7 +80,7 @@ def has_33(nums):
         print("False")
 
 has_33([1,2,3])
-
+has_33([1,3,3,4,3,1])
 
 
 
@@ -99,7 +99,7 @@ def spy_game(nums):
     else:
         print("True")    
     
-spy_game([1,2,3,4,0,0,0,4,3,5,3])
+spy_game([1,2,3,4,0,0,0,7,3,5,3])
 
 
 
